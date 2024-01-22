@@ -2,6 +2,7 @@
   padding: 0;
 }
 
+
 body {
   background-color: black;
   display: flex;
@@ -120,6 +121,7 @@ hr{
     padding: 0;
   } 
   
+  
   body {
     background-color: black;
   }
@@ -141,41 +143,49 @@ hr{
   }
   
   .socialMedias{
-    left: 30% ;
+    left: 75% ;
 
   } 
   
-   .patternRingImg{
-    background-image: url(public\images\pattern-rings.svg);
+  /* .patternRingImg{
+    background-image: url(public/images/image-profile-tablet.webp);
     background-repeat: no-repeat;
     display: flex;
+    position: relative;
   } 
-  
-   .oneSocialMedia{
+   */
+  .oneSocialMedia{
     margin: 10px;
   }
   
   .adamkeyesTitle{
-    color: white;
-    display: flex;
-    right: 35%;
+    position: absolute;
+    right: 75%;
     top: 10px;
     font-family: 'Space Grotesk', sans-serif;
   }
   
   .adamkeyesImg{
+    background-image: url(public/images/image-profile-tablet.webp);
+    background-repeat: no-repeat;
+    left: 72%;
+    bottom: 43%;
+    position: absolute;
     width: 174px;
     height: 383px;
   }
   
   .presentationTitle{
+    width: 50%;
+    position: relative;
+    text-align: left;
     top: 20px;
     font-family: 'Space Grotesk', sans-serif;
   }
   
   .presentationText{
     position: relative;
-    text-align: center;
+    text-align: left;
     top: 50px;
     color: #242424;
     font-family: 'Space Grotesk', sans-serif;
