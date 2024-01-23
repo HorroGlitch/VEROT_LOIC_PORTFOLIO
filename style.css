@@ -115,6 +115,38 @@ hr{
   font-family: 'Space Grotesk', sans-serif;
 }
 
+.projectCard{
+  margin-top: 10px;
+}
+
+.projectImg{
+  width: 348px;
+  height: 243px;
+}
+
+.projectTitle{
+  font-family: 'Space Grotesk', sans-serif;
+  text-transform: uppercase;
+}
+
+.projectlanguageList{
+  display: flex;
+  position: relative;
+}
+
+.projectLanguage{
+  font-family: 'Space Grotesk', sans-serif;
+  text-transform: uppercase;
+  margin: 5px;
+}
+
+.projectLinks{
+  font-family: 'Space Grotesk', sans-serif;
+  text-transform: uppercase;
+  text-decoration: none;
+  margin: 5px;
+}
+
 
 @media screen and (min-width: 640px) {
   * {
