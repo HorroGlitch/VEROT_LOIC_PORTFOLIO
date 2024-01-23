@@ -83,6 +83,7 @@ h3{
   align-items: center;
   justify-content: center;
   font-family: 'Space Grotesk', sans-serif;
+  text-decoration-color: #4ee1a0
 }
 
 .contactMeHr{
@@ -143,7 +144,8 @@ hr{
 .projectLinks{
   font-family: 'Space Grotesk', sans-serif;
   text-transform: uppercase;
-  text-decoration: none;
+  text-decoration-color: #4ee1a0;
+  color: white;
   margin: 5px;
 }
 
@@ -176,7 +178,7 @@ hr{
   
   .socialMedias{
     left: 75% ;
-
+    z-index: 1;
   } 
   
   /* .patternRingImg{
@@ -188,6 +190,7 @@ hr{
    */
   .oneSocialMedia{
     margin: 10px;
+    text-decoration: none;
   }
   
   .adamkeyesTitle{
@@ -198,13 +201,11 @@ hr{
   }
   
   .adamkeyesImg{
-    background-image: url(public/images/image-profile-tablet.webp);
-    background-repeat: no-repeat;
-    left: 72%;
-    bottom: 43%;
+    left: 60%;
+    bottom: 33%;
     position: absolute;
-    width: 174px;
-    height: 383px;
+    width: 300px;
+    height: 700px;
   }
   
   .presentationTitle{
@@ -219,25 +220,21 @@ hr{
     position: relative;
     text-align: left;
     top: 50px;
-    color: #242424;
+    width: 50%;
+    color: white;
     font-family: 'Space Grotesk', sans-serif;
   }
   
   .contactMe{
     color: white;
-    top: 40px;
+    top: 60px;
     display: flex;
     position: relative;
-    align-items: center;
-    justify-content: center;
+    align-items: start;
+    justify-content: left;
     font-family: 'Space Grotesk', sans-serif;
   }
   
-  .contactMeHr{
-    top: 30px;
-    width: 25%;
-    color: #4ee1a0;
-  }
   
   hr{
     top: 60px;
@@ -246,7 +243,16 @@ hr{
     align-items: center;
     justify-content: center;
   }
+
+  .hrBeforeExperiencies{
+    display: none;
+  }
   
+  .allExperiencies{
+    display: grid;
+    grid-template-columns:repeat(2,50%) ;
+  }
+
   .experienceTitle{
     font-size: 32px;
     top: 50px;
@@ -262,4 +268,57 @@ hr{
     color: #242424;
     font-family: 'Space Grotesk', sans-serif;
   } 
+
+  .hrBeforeProjects {
+    display: none;
+  }
+
+  .projectsh2{
+    font-family: 'Space Grotesk', sans-serif;
+  }
+
+  .contactMeProjects{
+    font-family: 'Space Grotesk', sans-serif;
+    color: white;
+    text-decoration-color: #4ee1a0 ;
+    text-align:right;
+  }
+
+  .allTheCards{
+    display: grid;
+    grid-template-columns:repeat(2,53%) ;
+  }
+
+  .projectCard{
+    margin-top: 10px;
+  }
+  
+  .projectImg{
+    width: 348px;
+    height: 243px;
+  }
+  
+  .projectTitle{
+    font-family: 'Space Grotesk', sans-serif;
+    text-transform: uppercase;
+  }
+  
+  .projectlanguageList{
+    display: flex;
+    position: relative;
+  }
+  
+  .projectLanguage{
+    font-family: 'Space Grotesk', sans-serif;
+    text-transform: uppercase;
+    margin: 5px;
+  }
+  
+  .projectLinks{
+    font-family: 'Space Grotesk', sans-serif;
+    text-transform: uppercase;
+    text-decoration-color: #4ee1a0;
+    color: white;
+    margin: 5px;
+  }
 }
