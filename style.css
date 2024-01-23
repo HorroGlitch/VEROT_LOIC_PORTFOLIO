@@ -322,3 +322,204 @@ hr{
     margin: 5px;
   }
 }
+
+@media screen and (min-width: 768px) {
+  * {
+    padding: 0;
+  } 
+  
+  body {
+    background-color: black;
+  }
+  
+  p{
+    color: white;
+  }
+  
+  h1{
+    color: white;
+  }
+  
+  h2{
+    color: white;
+  }
+  
+  h3{
+    color: white;
+  }
+  
+  .socialMedias{
+    left: 75% ;
+    z-index: 1;
+  } 
+  
+  /* .patternRingImg{
+    background-image: url(public/images/image-profile-tablet.webp);
+    background-repeat: no-repeat;
+    display: flex;
+    position: relative;
+  } 
+   */
+  .oneSocialMedia{
+    margin: 10px;
+    text-decoration: none;
+  }
+  
+  .adamkeyesTitle{
+    position: absolute;
+    right: 75%;
+    top: 10px;
+    font-family: 'Space Grotesk', sans-serif;
+  }
+  
+  .adamkeyesImg{
+    left: 60%;
+    bottom: 33%;
+    position: absolute;
+    width: 300px;
+    height: 700px;
+  }
+  
+  .presentationTitle{
+    left: 10%;
+    width: 50%;
+    position: relative;
+    font-size: 88px;
+    font-family: 'Space Grotesk', sans-serif;
+  }
+  
+  .presentationText{
+    position: relative;
+    text-align: left;
+    font-size: 18px;
+    top: 50px;
+    width: 30%;
+    color: white;
+    font-family: 'Space Grotesk', sans-serif;
+  }
+  
+  .contactMe{
+    color: white;
+    top: 60px;
+    display: flex;
+    position: relative;
+    align-items: start;
+    justify-content: left;
+    font-family: 'Space Grotesk', sans-serif;
+  }
+
+  .contactMe:hover{
+    color: #4ee1a0;
+  }
+  
+  
+  hr{
+    top: 60px;
+    width: 90%;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .hrBeforeExperiencies{
+    display: none;
+  }
+  
+  .allExperiencies{
+    grid-template-columns:repeat(3,20%) ;
+    left: 20%;
+    margin-top: 30%;
+    position: relative;
+  }
+
+  .experienceTitle{
+    font-size: 48px;
+    top: 50px;
+    position: relative;
+    text-align: center;
+    font-family: 'Space Grotesk', sans-serif;
+  }
+  
+  .experienceYears{
+    top: 50px;
+    font-size: 18px;
+    text-align: center;
+    position: relative;
+    color: #242424;
+    font-family: 'Space Grotesk', sans-serif;
+  } 
+
+  .hrBeforeProjects {
+    display: none;
+  }
+
+  .projectsh2{
+    font-family: 'Space Grotesk', sans-serif;
+  }
+
+  .contactMeProjects{
+    font-family: 'Space Grotesk', sans-serif;
+    color: white;
+    text-decoration-color: #4ee1a0 ;
+    text-align:right;
+  }
+
+  .allTheCards{
+    display: grid;
+    grid-template-columns:repeat(2,53%) ;
+  }
+
+  .projectCard{
+    margin-top: 10px;
+  }
+  
+  .projectImg{
+    width: 348px;
+    height: 243px;
+  }
+  
+  .projectTitle{
+    font-family: 'Space Grotesk', sans-serif;
+    text-transform: uppercase;
+  }
+  
+  .projectlanguageList{
+    display: flex;
+    position: relative;
+  }
+  
+  .projectLanguage{
+    font-family: 'Space Grotesk', sans-serif;
+    text-transform: uppercase;
+    margin: 5px;
+  }
+
+  .projectImg:hover{
+    width: 348px;
+    height: 243px;
+    background-color: #242424;
+    opacity: 30%;
+  }
+  
+  .projectLinks{
+    font-family: 'Space Grotesk', sans-serif;
+    text-transform: uppercase;
+    text-decoration-color: #4ee1a0;
+    color: white;
+    margin: 5px;
+    bottom: 230px;
+    left: 60px;
+    position: relative;
+  }
+
+  .projectLinks:hover{
+    font-family: 'Space Grotesk', sans-serif;
+    text-transform: uppercase;
+    text-decoration-color: #4ee1a0;
+    color: white;
+    margin: 5px;
+    bottom: 230px;
+    left: 60px;
+    position: relative;
+  }
+}
