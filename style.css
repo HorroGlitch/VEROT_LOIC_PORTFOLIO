@@ -149,6 +149,43 @@ hr{
   margin: 5px;
 }
 
+.contactForm{
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.contactFormTitle{
+  font-family: 'Space Grotesk', sans-serif;
+}
+
+.contactFormText{
+  font-family: 'Space Grotesk', sans-serif;
+  width: 90%;
+}
+
+#name{
+  font-family: 'Space Grotesk', sans-serif;
+  background-color: black;
+  color: white;
+}
+
+.nameForm{
+  font-family: 'Space Grotesk', sans-serif;
+  color: white;
+}
+
+#email{
+  font-family: 'Space Grotesk', sans-serif;
+  background-color: black;
+  color: white;
+}
+
+.emailForm{
+  font-family: 'Space Grotesk', sans-serif;
+  color: white;
+}
+
 
 @media screen and (min-width: 640px) {
   * {
@@ -427,7 +464,6 @@ hr{
   
   .allExperiencies{
     grid-template-columns:repeat(3,20%) ;
-    left: 20%;
     margin-top: 30%;
     position: relative;
   }
@@ -499,8 +535,22 @@ hr{
     height: 243px;
     background-color: #242424;
     opacity: 30%;
+
+
   }
-  
+
+
+  /* .projectLinks{
+    font-family: 'Space Grotesk', sans-serif;
+    text-transform: uppercase;
+    text-decoration-color: #4ee1a0;
+    color: white;
+    margin: 5px;
+    bottom: 230px;
+    left: 60px;
+    position: relative;
+  } */
+
   .projectLinks{
     font-family: 'Space Grotesk', sans-serif;
     text-transform: uppercase;
@@ -510,16 +560,11 @@ hr{
     bottom: 230px;
     left: 60px;
     position: relative;
+    display: none;
   }
 
-  .projectLinks:hover{
-    font-family: 'Space Grotesk', sans-serif;
-    text-transform: uppercase;
-    text-decoration-color: #4ee1a0;
-    color: white;
-    margin: 5px;
-    bottom: 230px;
-    left: 60px;
-    position: relative;
-  }
+
+  
+
+
 }

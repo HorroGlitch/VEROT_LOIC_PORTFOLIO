@@ -50,7 +50,7 @@
         developer passionate about building accessible web apps that users love.
       </p>
 
-      <a href="mailto:test@mail.com" class="contactMe">Contact me</a>
+      <a href=".formContact" class="contactMe">Contact me</a>
       
 
       <hr class="hrBeforeExperiencies">
@@ -95,8 +95,8 @@
         Projects
       </h2>
 
-      <a href="mailto:test@mail.com" class="contactMeProjects">Contact me</a>
-    </main>
+      <a href="#formContact" class="contactMeProjects">Contact me</a>
+    
 
     <article class="allTheCards">
 
@@ -174,12 +174,28 @@
 
     </article>
 
+    <form class="contactForm">
+      <h2 class="contactFormTitle">Contact</h2>
+
+      <p class="contactFormText">I would love to hear about your project and how I could help. Please fill in the form, and I'll get back to you soon as possible</p>
+
+      <div>
+        <label for="name" class="nameForm">Name </label>
+        <input type="text" name="name" id="name" required />
+      </div>
+
+      <div>
+        <label for="email" class="emailForm">Email </label>
+        <input type="text" name="email" id="email" required />
+      </div>
+
+    </form>
+
+  </main>
+
     <footer>
       
-      
-
     </footer>
-
 
     <script type="module" src="/main.js"></script>
   </body>
